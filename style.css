@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 100px 500px 100px;
+    grid-template-areas: 
+    "cx1 cx1 cx1"
+    "cx2 cx3 cx4"
+    "cx5 cx5 cx5"
+    ;
+
+}
+.modelo{
+    background-color: orangered;
+    
+}
+.caixa-01{
+    grid-area: cx1;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/37/Game_%28rapper%29_Logo.png);
+    background-size: auto;
+}
+.caixa-02{
+    grid-area: cx2;
+    background-image: url(https://e7.pngegg.com/pngimages/171/107/png-clipart-naruto-ultimate-ninja-3-naruto-shippuden-ultimate-ninja-storm-2-naruto-shippuden-ultimate-ninja-storm-generations-naruto-ultimate-ninja-storm-naruto-uzumaki-naruto-uzumaki-naruto-orange-cartoons.png);
+    background-size: cover;
+}
+.caixa-03{
+    grid-area: cx3;
+    background-image: url(https://i.pinimg.com/736x/74/45/6c/74456c2bd47666329b9dee5dcad4ece7.jpg);
+    background-size: cover;
+}
+.caixa-04{
+    grid-area: cx4;
+    background: linear-gradient(#ebfc02, #f80505, #f69d3c);
+}
+.caixa-05{
+    grid-area: cx5;
+    background-image: url(https://w7.pngwing.com/pngs/49/1010/png-transparent-norwich-sosoft-play-bouncy-castle-hire-inflatable-bouncers-cambridge-footer-background-child-leaf-computer-wallpaper.png);
+}
